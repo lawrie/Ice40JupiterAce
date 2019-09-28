@@ -1,0 +1,37 @@
+# User Constraint File for BlackIce Mx Jupiter Ace (Ice40JupiterAce)
+
+# Onboard 25MHz oscillator
+set_io clk25            60
+
+# Keyboard - Matches Digilent PmodPS/2 
+set_io clkps2           23 #
+set_io dataps2          19 # 
+
+# Sound
+set_io ear              21 # 
+set_io audio_out_left   22 # 
+set_io audio_out_right  25 # 
+
+# VGA Output - Matches Digilent PmodVGA
+set_io red[3]           139 # 
+set_io red[2]           138 # 
+set_io red[1]           142 #
+set_io red[0]           141 # 
+
+set_io green[3]         4 # 
+set_io green[2]         3 # 
+set_io green[1]         144 # 
+set_io green[0]         143 # 
+
+set_io blue[3]          135 # 
+set_io blue[2]          134 # 
+set_io blue[1]          137 # 
+set_io blue[0]          136 # 
+
+
+set_io hsync             1 # 
+set_io vsync             2 # 
+
+set_io stdn            106 # 
+set_io stdnb           105 # 
+

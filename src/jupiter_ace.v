@@ -20,7 +20,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module jupiter_ace (
-    input wire         clk100,
+    input wire         clk25,
     input wire         clkps2,
     input wire         dataps2,
     input wire         ear,
@@ -72,7 +72,7 @@ module jupiter_ace (
     end
 
     cuatro_relojes system_clocks_pll (
-        .CLK_IN1(clk100),
+        .CLK_IN1(clk25),
         .CLK_OUT1(clkram),  // for driving RAM and ROM = 26 MHz
         .CLK_OUT2(clkvga),  // VGA clock: 2 x video clock
         .CLK_OUT3(clk65),   // video clock = 6.5 MHz

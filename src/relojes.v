@@ -22,8 +22,8 @@ module cuatro_relojes
        .SHIFTREG_DIV_MODE(1'b0),
        .FDA_FEEDBACK(4'b0000),
        .FDA_RELATIVE(4'b0000),
-       .DIVR(4'b1000),
-       .DIVF(7'b1001010),
+       .DIVR(4'b0001),
+       .DIVF(7'b1000010),
        .DIVQ(3'b101),
        .FILTER_RANGE(3'b001)
        ) 
